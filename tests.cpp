@@ -6,3 +6,7 @@ TEST(SumTest, TwoPlusThree) {
     t = sum(2, 3);
     EXPECT_EQ(t, 5);
 }
+
+TEST(MultiplyTest, TwoTimesThree) {
+    EXPECT_EQ(multiply(2, 3), 6);
+}
